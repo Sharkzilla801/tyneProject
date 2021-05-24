@@ -71,7 +71,7 @@ public class Gamepanel extends JPanel implements Runnable, KeyListener{
 			snake.add(b);
 		}
 		ticks++;
-		if(ticks > 250000) {
+		if(ticks > 330000) {
 			if(right) xCoor++;
 			if(left) xCoor--;
 			if(up) yCoor--;
